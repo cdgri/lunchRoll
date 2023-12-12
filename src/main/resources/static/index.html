@@ -10,12 +10,145 @@
 <body>
 	<div class="container">
 		<div class="wrap">
-			<h1 contenteditable="true" spellcheck="false">행운의 돌림판</h1>
+			<h1 contenteditable="true" spellcheck="false">점심메뉴 돌림판</h1>
 			<canvas width="600" height="600" class="roulette">지원하지 않는 브라우저입니다. Google Chrome 최신 버전을 사용해주세요.</canvas>
 			<div id="roll" class="button"></div>
 		</div>
 		<ul>
-			<li class="item empty" data-chance="0">
+			<li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(205, 220, 57) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">담소순대국</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li>
+		<li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(121, 85, 72) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">초당짬뽕순대부</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(156, 39, 176) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">빤닭빤닭 닭갈비</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(3, 169, 244) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">삼산회관</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(139, 195, 74) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">삼청동샤브</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(255, 87, 34) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">해담가</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(233, 30, 99) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">이태리부대찌개</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(33, 150, 243) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">제일순대국</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(76, 175, 80) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">청계산담백미</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(255, 152, 0) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">풍경한식</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(244, 67, 54) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">풍원장칼국수</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(63, 81, 181) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">남산돈까스</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(0, 150, 136) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">아비꼬 카레</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(255, 193, 7) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">야미카츠</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(96, 125, 139) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">더차이</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(103, 58, 183) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">우육면가</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(0, 188, 212) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">짬뽕지존</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(255, 235, 59) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">언버튼</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(121, 85, 72) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">잇타이플러스</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(156, 39, 176) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">탄탄면공방</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(3, 169, 244) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">퍼틴쌀국수</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item" data-chance="4.55" style="background: linear-gradient(to right, rgb(139, 195, 74) 11%, rgba(0, 0, 0, 0) 0%);">
+				<div class="item-title" placeholder="이름" contenteditable="true">청년다방</div>
+				<div class="item-weight" data-weight="1"></div>
+				<div class="item-weight-add">+</div>
+				<div class="item-weight-sub">-</div>
+				<div class="item-delete">X</div>
+			</li><li class="item empty" data-chance="0">
 				<div class="item-title" placeholder="이름" contenteditable="true"></div>
 				<div class="item-weight" data-weight="1"></div>
 				<div class="item-weight-add">+</div>

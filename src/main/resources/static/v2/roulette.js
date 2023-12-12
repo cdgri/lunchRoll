@@ -70,7 +70,7 @@ var bgColor = '#ffffff';
 var pinColor = '#37474f';
 var fontStrokeStyle = '#37474f';
 
-
+window.onload = pageLoad;
 
 function DEG2RAD(degree) {
 	return (degree * Math.PI) / 180;
@@ -84,6 +84,10 @@ $(document).ready(function() {
 	}
 });
 
+function pageLoad(){
+	cleanList();
+	updateData();
+}
 
 function updateData() {
 
